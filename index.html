@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Superhero Wiki</title>
+
+	<!-- Links for styling  -->
+	<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+</head>
+<body>
+
+	<div class="container text-center">
+		<h1 class="heading">SUPERHERO WIKI</h1>
+
+		<div class="container">
+			<form class="form-inline">
+
+			  <div class="form-group">
+			    <label class="sr-only" for="search">Search bar</label>
+			    <input type="text" class="form-control" id="search" placeholder="Search Any Superhero">
+			  </div>
+
+			</form>
+
+			<!-- Link to favourite Heros page -->
+			<div><a href="fav-heros.html" class="fav-page-btn btn btn-info btn-sm" role="button">Fav. heroes Page</a></div>
+
+			<!-- Loading Spinner -->
+			<div class="loader"></div>
+		</div>
+
+		<!-- This div will contain our search results -->
+		<div class="container" id="search-results">		
+			
+		</div>
+	</div>
+
+	<!-- The Notification Prompt -->
+	<div id="toast"></div>
+
+
+	<script type="text/javascript" src="common.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+body
+{
+	background-image: url('images/about-background.jpg');
+	background-size: cover;
+}
+
+.home-page-btn
+{
+	float: left !important;
+	margin-top: 10px;
+}
+
+#hero-image
+{
+	height: 250px;
+	width: 250px;
+}
+
+#details-container
+{
+	margin-top:100px;
+	color: white;
+}

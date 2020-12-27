@@ -1,0 +1,76 @@
+html,body
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-image: url(images/home-background.jpg);
+	background-size: cover;
+}
+
+.heading
+{
+	font-size: 50px;
+	font-family: 'Comic Neue', cursive;
+	/*color: black;*/
+	color: white;
+}
+
+form
+{
+	position: absolute;
+    left: 40%;
+    margin-top: 10px;
+}
+
+.fav-page-btn
+{
+	float: right !important;
+	margin-top: 10px;
+}
+
+#search-results
+{
+	margin-top: 200px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#toast {
+  position: fixed;
+  top: 65px;
+  left: 15px;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: none;
+}
+.toast-error {
+  background: #ff5a5a;
+}
+.toast-success {
+  background: #8bc34a;
+}
+
+.loader {
+  border: 10px solid;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border-color: blue transparent transparent;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: none;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Superhero Page</title>
+	<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="about.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+
+	<div class="container text-center">
+
+		<h1 class="heading">SUPERHERO WIKI</h1>
+
+
+		<!--Navigate to  Home Page and Favourite Heros Page -->
+		<a href="index.html" class="home-page-btn btn btn-info btn-sm" role="button">Back to Home Page</a>
+		<a href="fav-heros.html" class="fav-page-btn btn btn-info btn-sm" role="button">Go to Fav. heroes Page</a>
+
+		<h2 id="hero-name" class="heading"></h2>
+
+		<!-- The Loading Spinner -->
+		<div class="loader"></div>
+
+		<div clss= "text-center">
+			<img src="" alt="unable to load" class="img-circle" id="hero-image">
+		</div>
+
+		<div class="row" id="details-container">
+
+			<!-- PowerStats Section -->
+			<div class="col-md-4" id="powerstats">
+				<h4>PowerStats</h4>
+			</div>
+
+			<!-- Biography Section -->
+			<div class="col-md-6" id="biography">
+				<h4>Biography</h4>				
+			</div>
+
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="common.js"></script>
+	<script type="text/javascript" src="about.js"></script>
+
+</body>
+</html>
