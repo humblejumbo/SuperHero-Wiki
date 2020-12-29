@@ -2,10 +2,13 @@
 Superhero Hunter
 
 ## Description
-* This application lets you search about the superhero with search results instantly coming up as you type in search bar.
-* You can mark heros as favourites and they will be displayed on seperate _Favourite Hero Page_.
+* This JS application is a real time search engine(debounce) to search superheroes.
+*	Uses local storage of browser to store the favourite heros so that this list remains persistant. Will be displayed on seperate _Favourite Hero Page_.
 * You can know more details about a superhero like their biography and powerstats on _About Page_.
 
 ## API Reference
 https://superheroapi.com/?ref=apilist.fun
+
+## Hosted at
+https://humblejumbo.github.io/SuperHero-Wiki/index.html
 
